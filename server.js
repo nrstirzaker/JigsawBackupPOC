@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 })
 
 app.post('/Organisation',(req,res) =>{
-    console.log(req);
+    console.log(req.params);
     res.sendStatus(200)
 })
 
