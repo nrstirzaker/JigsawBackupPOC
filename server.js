@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 })
 
 app.post('/Organisation',(req,res) =>{
-    console.log(req.body);
+    console.log(JSON.stringify(req.body));
     res.sendStatus(200)
 })
 
