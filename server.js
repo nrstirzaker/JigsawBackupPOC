@@ -8,9 +8,11 @@ app.get('/', (req, res) => {
 
 app.post('/Organisation',(req,res) =>{
     console.log(req);
+    res.sendStatus(200)
 })
 
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
+
 })
